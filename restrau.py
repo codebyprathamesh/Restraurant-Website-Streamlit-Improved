@@ -3,7 +3,7 @@ import sqlite3
 from datetime import date
 import smtplib
 from email.message import EmailMessage
-import bcrypt
+from passlib.hash import bcrypt
 import random
 import pandas as pd
 import matplotlib.pyplot as plt
